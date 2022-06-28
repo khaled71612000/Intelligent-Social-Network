@@ -1,0 +1,14 @@
+SELECT 
+`users`.`id`,
+`users`.`name`, 
+relationships.name as 'Relationship type', 
+CASE
+    WHEN users.id = user_relationship.user1_id THEN (SELECT users.id from users WHERE users.id = user_relationship.user2_id)
+    WHEN users.id = user_relationship.user2_id THEN (SELECT users.id from users WHERE users.id = user_relationship.user1_id)
+    END AS 'With'
+FROM `users` JOIN `user_relationship`
+ON users.id = user_relationship.user1_id
+OR users.id = user_relationship.user2_id
+JOIN relationships
+ON user_relationship.relationship_id = relationships.id
+WHERE users.id = 2;  // Set user id
