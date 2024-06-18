@@ -1,11 +1,11 @@
-# Intelligent Social Network integrated with Knowledge based system
+Intelligent Social Network is a graduation project developed using Laravel and deep learning, completed at Misr University for Science & Technology (MUST). The project aims to create an advanced social networking platform integrating a knowledge-based system with deep learning techniques.
 
 Onism is the feeling you get once you realize how big is the number of experiences you havn't experienced yet, places you haven't visited yet, feelings you haven't felt yet, and people you haven't known yet ..
 
-# Main features
-1- Personality Analysis (MBTI). <br>
-2- Learning Style Classification. <br>
-3- Emotion Recognition. <br>
-4- Providing Emotional Support to users. <br>
-5- Providing insight for each user on his/her personality type, learning style. <br>
-6- Providing insights for each 2 connected users about their relationship and what conflicts they may face in the future.
+Main Features
+Personality Analysis: Uses Myers-Briggs Type Indicator (MBTI) to analyze user personalities.
+Learning Style Classification: Identifies and classifies user learning styles.
+Emotion Recognition: Employs deep learning to detect and understand user emotions.
+Emotional Support: Provides appropriate support based on detected emotions.
+User Insights: Offers personalized insights, predictions for relationship conflicts, and more.
+Advanced Interactions: Facilitates intelligent and context-aware interactions among users.
